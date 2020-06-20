@@ -10,11 +10,16 @@
   Ela realiza o famoso cálculo do IMC (Indice de Massa Corporal) fazendo a relação do peso com a altura a formula é = ** PESO / (ALTURA)² **
   esta formula retorna um indice que de acordo com a tabela IMC, informa ao usuario qual a sua sitação:
   
-  IMC	CLASSIFICAÇÃO	OBESIDADE (GRAU)
+###  IMC	CLASSIFICAÇÃO	OBESIDADE (GRAU)
+  
   MENOR QUE 18,5	MAGREZA	0
+  
   ENTRE 18,5 E 24,9	NORMAL	0
+  
   ENTRE 25,0 E 29,9	SOBREPESO	I
+  
   ENTRE 30,0 E 39,9	OBESIDADE	II
+  
   MAIOR QUE 40,0	OBESIDADE GRAVE	III
  
 ## Funcionamento
