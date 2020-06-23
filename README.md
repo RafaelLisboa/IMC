@@ -1,4 +1,4 @@
-![Gif](https://github.com/RafaelLisboa/IMC/blob/master/images/App.gif)
+![Image](https://github.com/RafaelLisboa/IMC/blob/master/images/AppImage.jpg)
 
 # IMC
  
