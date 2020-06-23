@@ -1,3 +1,5 @@
+![Gif](https://github.com/RafaelLisboa/IMC/blob/master/images/App.gif)
+
 # IMC
  
  
