@@ -1,44 +1,44 @@
 ![Image](https://github.com/RafaelLisboa/IMC/blob/master/images/AppImage.jpg)
 
-# IMC
+# BMI
  
  
-## Calculadora IMC intuitiva em Kotlin
+## Intuitive BMI calculator in Kotlin
 
-  Este é meu primeiro projeto nesta linguagem, o aplicativo é bem simples apresenta uma interface de facil uso para qualquer um.
+  This is my first project in this language, the application is very simple and has an easy-to-use interface for anyone.
   
-## Objetivo
+## Objective
 
-  Ela realiza o famoso cálculo do IMC (Indice de Massa Corporal) fazendo a relação do peso com a altura a formula é = ** PESO / (ALTURA)² **
-  esta formula retorna um indice que de acordo com a tabela IMC, informa ao usuario qual a sua sitação:
+  She performs the famous calculation of BMI (Body Mass Index) making the relationship of weight to height the formula is = ** WEIGHT / (HEIGHT) ² **
+  this formula returns an index that, according to the BMI table, informs the user what their location is:
   
-###  IMC	CLASSIFICAÇÃO	OBESIDADE (GRAU)
+### BMI CLASSIFICATION OBESITY (DEGREE)
   
-  MENOR QUE 18,5	MAGREZA	0
+  LESS THAN 18.5 SLIMMING 0
   
-  ENTRE 18,5 E 24,9	NORMAL	0
+  BETWEEN 18.5 AND 24.9 NORMAL 0
   
-  ENTRE 25,0 E 29,9	SOBREPESO	I
+  BETWEEN 25.0 AND 29.9 OVERWEIGHT I
   
-  ENTRE 30,0 E 39,9	OBESIDADE	II
+  BETWEEN 30.0 AND 39.9 OBESITY II
   
-  MAIOR QUE 40,0	OBESIDADE GRAVE	III
+  GREATER THAN 40.0 SERIOUS OBESITY III
  
-## Funcionamento
+## Operation
 
-  O app solicita duas entradas do usuário, para altura e peso, dentro do arquivo MainActivity.kt é realizado todos os calculos do app.
+  The app requests two user inputs, for height and weight, within the MainActivity.kt file, all calculations of the app are performed.
   
- Setei um Button Click Listener (Que sempre ouve caso o botão enviar seja pressionado), quando pressionado:
+ Setei a Button Click Listener (which always hears if the send button is pressed), when pressed:
  
- 1 - Ele criar duas variaveis Float recebendo zero e uma boolean chamada erro recebendo false, logo após isso ele tenta converter as entradas do usuário e atribui-las para estas variaveis,
- caso não consiga ele atribui true a variavel erro e logo solicita que o usuario preencha os campos.
+ 1 - He creates two Float variables receiving zero and a boolean called error receiving false, after that he tries to convert the user's inputs and assign them to these variables,
+ if not, he assigns the variable error to true and then asks the user to fill in the fields.
  
- 2 - O próximo passo é realizar o calculo da IMC com a formula citada acima e o atribui a variavel result
+ 2 - The next step is to perform the BMI calculation with the formula mentioned above and assign it to the result variable
  
- 3 - O valor da variavel result cai na função showStatus, que basicamente faz o papel da tabela de classificação
+ 3 - The value of the result variable falls in the showStatus function, which basically plays the role of the classification table
  
- 4 - Este mesmo valor da result cai em setImage, que assimila o o IMC a uma Imagem de aviso (Apenas um recurso visual)
+ 4 - This same result value falls in setImage, which assimilates the BMI to a warning image (Only a visual resource)
  
- 5 - Encontrar o Drawable que vai mostrar o resultado da função acima e logo após altera-lo
+ 5 - Find the Drawable that will show the result of the above function and right after changing it
  
- 6 - Por ultimo, para facilitar o uso ele retira o que foi digitado nos campos para preparar o App para uma nova consulta do usuario 
+ 6 - Finally, to make it easier to use it removes what was typed in the fields to prepare the App for a new user consultation
